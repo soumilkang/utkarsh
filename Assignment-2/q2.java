@@ -10,20 +10,22 @@ public class q2{
                ans=mid;
                end=mid-1;
             }
-            if(num[mid]<key)
+            else 
             {
                 start=mid+1;
             }
-            else{
-                end=mid-1;
-            }
+            
         }
         return ans;
     }
-        public static void main(String[] args) {
+    
+
+
+
+
+    public static void main(String[] args) {
         int num[]={2,4,6,8,10,12,14};
-        int key=6;
+        int key=5;
         System.out.println(binary(num,key));
     }
 }
-    
