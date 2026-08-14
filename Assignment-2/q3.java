@@ -10,13 +10,11 @@ public class q3{
                ans=mid;
                end=mid-1;
             }
-            if(num[mid]<key)
+            else()
             {
                 start=mid+1;
             }
-            else{
-                end=mid-1;
-            }
+         
         }
         return ans;
     }
