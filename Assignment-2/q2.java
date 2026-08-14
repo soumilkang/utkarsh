@@ -22,7 +22,6 @@ public class q2{
 
 
 
-
     public static void main(String[] args) {
         int num[]={2,4,6,8,10,12,14};
         int key=5;
